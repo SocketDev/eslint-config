@@ -1,0 +1,59 @@
+{
+  "name": "@socketsecurity/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "The Socket ESLint config. Based on standard",
+  "author": {
+    "name": "Socket Inc",
+    "email": "eng@socket.dev",
+    "url": "https://socket.dev"
+  },
+  "homepage": "https://github.com/SocketDev/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SocketDev/eslint-config.git"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/**/*.js",
+    "tsconfig-less.js"
+  ],
+  "scripts": {
+    "test": "installed-check -i eslint-plugin-jsdoc && eslint .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "installed-check": "^6.0.4",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "*"
+  }
+}

@@ -1,0 +1,6 @@
+# Basic ones
+/node_modules
+/yarn.lock
+/.vscode
+
+# Library specific ones
