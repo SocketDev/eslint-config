@@ -1,6 +1,6 @@
 # Socket ESLint Config
 
-[![Socket Badge](https://socket.dev/api/badge/npm/pkg/@socketsecurity/eslint-config)](https://socket.dev/npm/package/@socketsecurity/eslint-config)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/@socketsecurity/eslint-config)](https://socket.dev/npm/package/@socketsecurity/eslint-config)
 
 For projects with a `tsconfig.json`:
 
