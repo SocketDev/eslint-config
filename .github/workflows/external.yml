@@ -87,6 +87,7 @@ jobs:
         working-directory: ./project
       - name: modify project eslint config (ESM version)
         run: sed 's/"@socketsecurity\/eslint-config\/jsdoc"/"..\/main\/test-jsdoc.eslintrc"/' .eslintrc > tmp.eslintrc && rm .eslintrc && mv tmp.eslintrc .eslintrc
+        working-directory: ./project
       - name: run eslint
         run: ../main/node_modules/.bin/eslint --resolve-plugins-relative-to ../main --ext js --ext cjs --ext mjs --report-unused-disable-directives .
         working-directory: ./project
