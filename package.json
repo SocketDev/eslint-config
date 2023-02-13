@@ -19,6 +19,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "jsdoc.js",
     "lib/**/*.js",
     "tsconfig-less.js"
   ],
@@ -34,10 +35,12 @@
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-import-resolver-typescript": "^3.5.1",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^40.0.0",
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.9",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^45.0.2",
     "husky": "^8.0.1",
     "installed-check": "^6.0.4",
     "typescript": "^4.8.4"
@@ -50,10 +53,12 @@
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-import-resolver-typescript": "^3.5.1",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^40.0.0",
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.9",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^45.0.2",
     "typescript": "*"
   }
 }
