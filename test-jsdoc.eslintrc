@@ -1,0 +1,4 @@
+{
+  "extends": ["./jsdoc"],
+  "root": true
+}
