@@ -1,0 +1,10 @@
+{
+  "compliant": [
+    "SocketDev/socket-cli-js",
+    "SocketDev/socket-config-js",
+    "SocketDev/socket-sdk-js"
+  ],
+
+  "nonCompliant": [
+  ]
+}
