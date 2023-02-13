@@ -79,6 +79,8 @@ jobs:
       - name: modify project eslint config
         run: sed 's/"@socketsecurity"/"..\/main\/test.eslintrc"/' .eslintrc > tmp.eslintrc && rm .eslintrc && mv tmp.eslintrc .eslintrc
         working-directory: ./project
+      - name: modify project eslint config (tsconfig-less version)
+        run: sed 's/"@socketsecurity\/eslint-config\/tsconfig-less"/"..\/main\/test-tsconfig-less.eslintrc"/' .eslintrc > tmp.eslintrc && rm .eslintrc && mv tmp.eslintrc .eslintrc
       - name: run eslint
         run: ../main/node_modules/.bin/eslint --resolve-plugins-relative-to ../main --ext js --ext cjs --ext mjs --report-unused-disable-directives .
         working-directory: ./project
