@@ -22,3 +22,12 @@ For projects without a `tsconfig.json`:
   "root": true
 }
 ```
+
+For projects being typed with JSDoc:
+
+```json
+{
+  "extends": "@socketsecurity/eslint-config/jsdoc",
+  "root": true
+}
+```
