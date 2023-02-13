@@ -28,6 +28,9 @@ For projects being typed with JSDoc:
 ```json
 {
   "extends": "@socketsecurity/eslint-config/jsdoc",
-  "root": true
+  "root": true,
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
