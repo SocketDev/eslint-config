@@ -77,7 +77,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: install main
-        run: npm ci --no-audit --no-fund
+        run: npm i --no-audit --no-fund
         working-directory: ./main
       - name: install project
         run: '[ -f package-lock.json ] && npm ci --force || npm install --force'

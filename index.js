@@ -14,8 +14,7 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint',
-    'react-hooks',
-    'unicorn'
+    'react-hooks'
   ],
   'extends': ['./lib/standard-eslint-ts'],
   'settings': {
@@ -64,8 +63,6 @@ module.exports = {
 
     'react-hooks/rules-of-hooks': 'off',
     'react-hooks/exhaustive-deps': 'off',
-
-    'unicorn/expiring-todo-comments': 'warn',
 
     '@typescript-eslint/consistent-type-imports': [
       'error',
