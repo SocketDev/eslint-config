@@ -6,7 +6,7 @@ module.exports = {
   ],
   root: true,
   parserOptions: {
-    project: null,
+    project: [],
   },
   rules: {
     // Skip rules that require a "tsconfig"
