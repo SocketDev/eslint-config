@@ -6,11 +6,12 @@ module.exports = {
   ],
   root: true,
   parserOptions: {
-    project: [],
+    project: null,
   },
   rules: {
     // Skip rules that require a "tsconfig"
     '@typescript-eslint/no-implied-eval': 0,
     '@typescript-eslint/no-throw-literal': 0,
+    '@typescript-eslint/prefer-promise-reject-errors': 0
   }
 }
