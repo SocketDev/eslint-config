@@ -14,7 +14,7 @@
     "url": "git://github.com/SocketDev/eslint-config.git"
   },
   "engines": {
-    "node": "^16.10.0 || >=18.0.0"
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
   },
   "main": "index.js",
   "files": [
@@ -24,36 +24,36 @@
     "tsconfig-less.js"
   ],
   "scripts": {
-    "test": "installed-check -i eslint-plugin-jsdoc && eslint .",
-    "prepare": "husky install"
+    "test": "installed-check -i eslint-plugin-jsdoc -i eslint-config-standard && eslint .",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.3",
-    "@typescript-eslint/parser": "^6.7.3",
-    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "7.10.0",
+    "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsdoc": "^46.8.2",
-    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-jsdoc": "^48.2.5",
+    "eslint-plugin-n": "^17.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.1",
-    "installed-check": "^8.0.1",
-    "typescript": "^5.0.2"
+    "husky": "^9.0.0",
+    "installed-check": "^9.0.0",
+    "typescript": "~5.4.5"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.3",
-    "@typescript-eslint/parser": "^6.7.3",
-    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "7.10.0",
+    "eslint": "^8.56.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-import-resolver-typescript": "^3.5.1",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^40.0.0",
-    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-jsdoc": "^48.2.5",
+    "eslint-plugin-n": "^17.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.9",
     "eslint-plugin-react-hooks": "^4.6.0",
