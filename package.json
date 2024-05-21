@@ -1,6 +1,6 @@
 {
   "name": "@socketsecurity/eslint-config",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "license": "MIT",
   "description": "The Socket ESLint config. Based on standard",
   "author": {
