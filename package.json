@@ -42,7 +42,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.0",
     "installed-check": "^9.0.0",
-    "typescript": "~5.4.5"
+    "typescript": "~5.5.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.10.0",
