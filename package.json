@@ -24,17 +24,17 @@
     "tsconfig-less.js"
   ],
   "scripts": {
-    "test": "installed-check -i eslint-plugin-jsdoc -i eslint-config-standard && eslint .",
+    "test": "installed-check -i eslint-plugin-jsdoc -i @eslinter/eslint-config-standard && eslint .",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@eslinter/eslint-config-standard": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "7.10.0",
-    "eslint": "^8.56.0",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "^8.57.0",
     "eslint-config-standard-jsx": "^11.0.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.28.1",
+    "eslint-import-resolver-typescript": "^4.3.2",
+    "eslint-plugin-import-x": "^4.10.2",
     "eslint-plugin-jsdoc": "^48.2.5",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
@@ -47,11 +47,10 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "7.10.0",
-    "eslint": "^8.56.0",
-    "eslint-config-standard": "^17.0.0",
+    "eslint": "^8.57.0",
     "eslint-config-standard-jsx": "^11.0.0",
-    "eslint-import-resolver-typescript": "^3.5.1",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-import-resolver-typescript": "^4.3.2",
+    "eslint-plugin-import-x": "^4.10.2",
     "eslint-plugin-jsdoc": "^48.2.5",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",

@@ -16,13 +16,7 @@ module.exports = {
     '@typescript-eslint',
     'react-hooks'
   ],
-  'extends': ['./lib/standard-eslint-ts'],
-  'settings': {
-    'import/resolver': {
-      'typescript': true,
-      'node': true
-    }
-  },
+  'extends': ['plugin:import-x/typescript', './lib/standard-eslint-ts'],
   'overrides': [
     {
       'files': ['*.ts', '*.tsx'],
@@ -68,7 +62,7 @@ module.exports = {
       'error',
       { 'prefer': 'type-imports', 'disallowTypeAnnotations': true }
     ],
-    'import/order': [
+    'import-x/order': [
       'warn',
       {
         'groups': ['builtin', 'external', ['internal', 'parent', 'sibling', 'index'], 'type'],
